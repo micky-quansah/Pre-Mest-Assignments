@@ -3,6 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import './components/Title.js'
 import Title from './components/Title.js';
+import UsefulLink from './components/Useful-links.js';
+import SomeInfo from './components/SomeInfo.js';
+import Table from './components/Table.js';
 
 function App() {
   return (
@@ -10,18 +13,12 @@ function App() {
       <header className="App-header">
         <Title />
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <UsefulLink />
       </header>
+      <section>
+        <SomeInfo />
+        <Table />
+      </section>
     </div>
   );
 }
