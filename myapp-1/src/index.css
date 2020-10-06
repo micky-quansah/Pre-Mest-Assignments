@@ -7,6 +7,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+section {
+  margin: 20px;
+  font-family: Helvetica, sans-serif;
+  background-color: whitesmoke;
+  color: rgb(12, 11, 11);
+  padding: 10px;
+  height: 120vh;
+}
+
+.someInfo {
+  padding: 10px;
+  margin-bottom: 50px;
+  color: rgb(33, 34, 37);
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
